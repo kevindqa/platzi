@@ -4,7 +4,7 @@
 jugador = input("piedra, papel o tijera  ").lower()
 import random                             # aqui importamos el modulo random 
 
-opciones = ["piedra","papel","tijera"]   # cree la variable opciones que contenia en corchetes las opciones  que el pc podia usar 
+opciones = ("piedra","papel","tijera")   # cree la variable opciones que contiene en una tupla las opciones  que el pc puede usar 
 pc = random.choice(opciones)             # aqui llamé a la funcion para que escojiera aleatoriamente una de las opciones que le habia dado anteriormente
 print(f"ecojiste = {jugador} ")
 print(f"tu oponente escoje {pc}")
