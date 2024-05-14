@@ -23,8 +23,8 @@ else:
 
 
 print(diccionario)
-print(f"nombre = {diccionario.get("name")}") # con get consultamos si una llave esta en el diccionario
+print(f"nombre = {diccionario.get("name")}") # con <get> consultamos si una llave esta en el diccionario
 
-del diccionario["apellido"]  # con del eliminamos un llave del diccionario
+del diccionario["apellido"]  # con <del> eliminamos un llave del diccionario
 print (diccionario)
 
