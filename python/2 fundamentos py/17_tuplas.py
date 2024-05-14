@@ -1,17 +1,17 @@
-'''
-Tuplas
-Estructura de datos inmutables que contiene una secuencia ordenada de elementos
-'''
 
-numeros = (1,2,3,4,5,6,7,8,9)
-strings =("pepe", "jero", "mom", "abue")
-
+#Tuplas
+#Estructura de datos inmutables que contiene una secuencia ordenada de elementos
 """
 -Los elementos están separados por espacios luego de las comas
 -Puede contener cualquier tipo de datos
 -Cada posición de la tupla tiene un índice
 -Es inmutable y por lo tanto no puede ser modificada, lo que permite proteger mejor la data si no queremos que se modifique por error
 """
+
+
+numeros = (1,2,3,4,5,6,7,8,9)
+strings =("pepe", "jero", "mom", "abue")
+
 
 #para convertir la tupla a una lista ejecutamos 
 
