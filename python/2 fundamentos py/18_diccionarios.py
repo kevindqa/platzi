@@ -19,10 +19,12 @@ diccionario =  {
 if diccionario["edad"] >= 18:
     print ("eres mayor de edad") 
 else:
-    print("eres menor de edad")
-    print(diccionario)
-    print(f"nombre = {diccionario.get("name")}") # con get consultamos si una llave esta en el diccionario
+    print("eres menor de edad")  
 
-del diccionario["apellido"]  
+
+print(diccionario)
+print(f"nombre = {diccionario.get("name")}") # con get consultamos si una llave esta en el diccionario
+
+del diccionario["apellido"]  # con del eliminamos un llave del diccionario
 print (diccionario)
 
