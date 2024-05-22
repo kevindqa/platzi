@@ -1,0 +1,34 @@
+# Enteros
+x = 10
+y = -5
+
+# Flotantes
+pi = 3.14159
+
+# Complejos
+z = 1 + 2j
+
+# Cadenas
+saludo = "Hola, mundo!"
+
+# Listas
+numeros = [1, 2, 3, 4, 5]
+
+# Tuplas
+colores = ('rojo', 'verde', 'azul')
+
+# Diccionarios
+persona = {"nombre": "Juan", "edad": 30}
+
+# Conjuntos
+frutas = {'manzana', 'banana', 'cereza'}
+
+# Booleanos
+es_verdad = True
+es_falso = False
+
+# Bytes
+datos_binarios = b'Python'
+
+# None
+valor_nulo = None
